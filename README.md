@@ -448,8 +448,8 @@ public npm registry today** (measured 2026-09-28 against the sibling checkouts):
 |---|---|---|
 | `@flashylabs/ledger` | 1.0.0 | GitHub Packages (`npm.pkg.github.com`), access **restricted** |
 | `@flashylabs/rails` | 1.0.0 | not yet published; incubated in `flashy-labs` |
-| `@magician-network/core` | 0.1.0 | not yet published |
-| `@flashyid/sdk` | 0.1.1 | not yet published |
+| `@magician-network/core` | 0.1.0 | published on npm (2026-09-06) |
+| `@flashyid/sdk` | 0.1.1 | published on npm (2026-09-01); 0.2.0 fails closed when its adapter is unavailable and is unpublished until the publish decision |
 
 So a plain `npm install` fails on a clean machine, `npm test` cannot run for a
 stranger, and this repository carries no lockfile (see

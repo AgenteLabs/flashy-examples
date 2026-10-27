@@ -5,12 +5,12 @@
  * Demonstrates: draftTransfer -> approve -> execute, consent bound to one
  * draft, idempotent execution, and attenuated grants that never widen.
  *
- * Flashy Rails is a thin service over a @flashylabs/ledger store. Amounts at
+ * Flashy Rails is a thin service over a @flashyos/ledger store. Amounts at
  * its edge are person-facing decimals (numbers); the ledger sees Minor units.
  * toMinor(25) is 2500 — a number in, an integer out. Never a string.
  */
 
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 import {
   RailsService, approve, issueGrant, attenuate, revoke,
   toMinor, toGold, FLASHY_GOLD_ID,

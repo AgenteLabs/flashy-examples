@@ -125,7 +125,7 @@ export async function run() {
     description: 'The present tense of the record: the recurring, witnessed, consequence-bearing act.',
     accountableTo: 'michael@gda.capital',
     escalation: 'spec',
-    repositories: [{ name: 'rites-network', url: 'github.com/FlashyLabs/Rites-Network', default: true }],
+    repositories: [{ name: 'rites-network', url: 'github.com/AgenteLabs/Rites-Network', default: true }],
     roles: [
       { name: 'spec', family: 'engineering',
         purpose: 'Publishes and maintains the ritual/1 standard, its schema and corpus, and validates a fragment against them.',

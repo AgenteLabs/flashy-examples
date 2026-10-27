@@ -226,7 +226,7 @@ export async function run() {
     for: 'org/ritualos',
     at: '2026-09-26T04:00:00Z',
     recorded: '2026-09-26T04:00:05Z',
-    evidence: 'https://github.com/FlashyLabs/ritualos/actions/runs/9001'
+    evidence: 'https://github.com/AgenteLabs/ritualos/actions/runs/9001'
   });
   console.log('2. Observance recorded, state =', frag.observances[0].state);
 

@@ -15,7 +15,7 @@ import {
   InMemoryLedgerStore, FLASHY_GOLD, WHEAT, materialize,
   post, postTransfer, fromDecimal, toDecimal, minor,
   verifyChain, balanceOf,
-} from '@flashylabs/ledger';
+} from '@flashyos/ledger';
 
 // Every read and every uniqueness constraint is scoped to a tenant.
 const TENANT = 'example-01';

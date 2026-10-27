@@ -11,7 +11,7 @@
  * of them is a claim about production, which runs on MongoLedgerStore.
  */
 
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 import { RailsService, approve } from '@flashylabs/rails';
 
 const HOLDERS = Array.from({ length: 100 }, (_, i) => `hunter_${String(i).padStart(3, '0')}`);

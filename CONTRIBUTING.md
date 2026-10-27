@@ -13,7 +13,7 @@ This repository is a teaching resource. Every contribution should make Flashy pa
 2. **Check existing examples.** Don't duplicate—build on them or suggest improvements.
 
 3. **Read the pattern's documentation first.**
-   - For ledger: read `@flashylabs/ledger` README
+   - For ledger: read `@flashyos/ledger` README
    - For rails: read `@flashylabs/rails` README
    - For magician: read `@magician-network/core` README
    - For flashyid: read `@flashyid/sdk` README
@@ -136,7 +136,7 @@ Before opening a pull request:
 This repository has no `package-lock.json`, on purpose, and CI does not run
 `npm ci`. A lockfile records the resolved URL and integrity hash of every
 package in the tree. Four of this repository's five dependencies cannot be
-resolved from the public registry today: `@flashylabs/ledger` publishes to
+resolved from the public registry today: `@flashyos/ledger` publishes to
 GitHub Packages with restricted access, and `@flashylabs/rails`,
 `@magician-network/core` and `@flashyid/sdk` are not published at all. A
 lockfile generated against sibling `file:` checkouts would pin local paths that

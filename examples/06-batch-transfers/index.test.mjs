@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { InMemoryLedgerStore, postTransfer } from '@flashylabs/ledger';
+import { InMemoryLedgerStore, postTransfer } from '@flashyos/ledger';
 import { RailsService, approve, toMinor, flashyGold, FLASHY_TENANT } from '@flashylabs/rails';
 
 const ALICE = 'hunter_a1';

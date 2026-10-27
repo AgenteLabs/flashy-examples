@@ -20,7 +20,7 @@ import {
   sealOutcome, verifyIntroduction, requestState,
 } from '@magician-network/core';
 import { RailsService, approve, toMinor } from '@flashylabs/rails';
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 
 // One id per person, used by every system. person/ ids pass the ledger's
 // opaque-identity guard and are Magician's native grammar.

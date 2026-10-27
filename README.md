@@ -3,7 +3,7 @@
 > The Flashy ecosystem teaches four core invariants: **append-only settlement**, **explicit consent**, **sealed introductions**, and **attenuation-only delegation**. These examples show how they work together in production.
 
 Working examples and tutorials for the Flashy ecosystem packages:
-- `@flashylabs/ledger` — multi-asset, append-only settlement engine
+- `@flashyos/ledger` — multi-asset, append-only settlement engine
 - `@flashylabs/rails` — consent-gated rewards and value transfer
 - `@magician-network/core` — trust routing and sealed introductions
 - `@flashyid/sdk` — identity and delegation layer
@@ -30,7 +30,7 @@ npm test examples/01-ledger-basics/
 - ✅ Idempotent replay (`deduplicated: true`), asset isolation, tenant scoping
 - ✅ The hash chain (`verifyChain`) and opaque identity (an email is refused)
 
-**Runs:** needs `@flashylabs/ledger`
+**Runs:** needs `@flashyos/ledger`
 
 **Read:** [`examples/01-ledger-basics/README.md`](examples/01-ledger-basics/)
 
@@ -55,7 +55,7 @@ npm test examples/02-rails-consent/
 - ✅ `toMinor(25) === 2500`; a string amount is `INVALID_AMOUNT`
 - ✅ `reconcile()` — every entry hashed, chained, settling to the balance
 
-**Runs:** needs `@flashylabs/ledger`, `@flashylabs/rails`
+**Runs:** needs `@flashyos/ledger`, `@flashylabs/rails`
 
 **Read:** [`examples/02-rails-consent/README.md`](examples/02-rails-consent/)
 
@@ -134,7 +134,7 @@ npm test examples/05-combined-workflow/
 - ✅ Ledger: atomic pair, `metadata.introduction === record.digest`, `reconcile()` ok
 - ✅ One id per person everywhere: `person/alice`
 
-**Runs:** needs `@flashyid/sdk`, `@magician-network/core`, `@flashylabs/rails`, `@flashylabs/ledger`
+**Runs:** needs `@flashyid/sdk`, `@magician-network/core`, `@flashylabs/rails`, `@flashyos/ledger`
 
 **Read:** [`examples/05-combined-workflow/README.md`](examples/05-combined-workflow/)
 
@@ -161,7 +161,7 @@ npm test examples/06-batch-transfers/
 - ✅ A batch that does not fit is refused in `post()` before anything is written
 - ✅ Replay pays nobody twice
 
-**Runs:** needs `@flashylabs/ledger`, `@flashylabs/rails`
+**Runs:** needs `@flashyos/ledger`, `@flashylabs/rails`
 
 **Read:** [`examples/06-batch-transfers/README.md`](examples/06-batch-transfers/)
 
@@ -212,7 +212,7 @@ npm test examples/08-error-recovery/
 - ✅ A transient failure after `post()` and before commit writes nothing; the retry settles once
 - ✅ Widening as a "recovery" is `GRANT_WIDENED`
 
-**Runs:** needs `@flashylabs/ledger`, `@flashylabs/rails`, `@magician-network/core`
+**Runs:** needs `@flashyos/ledger`, `@flashylabs/rails`, `@magician-network/core`
 
 **Read:** [`examples/08-error-recovery/README.md`](examples/08-error-recovery/)
 
@@ -262,7 +262,7 @@ npm test examples/10-performance/
 - ✅ Conservation: the sum of balances equals the sum of earns
 - ✅ Reads: 100 balances, history, `verifyChain`
 
-**Runs:** needs `@flashylabs/ledger`, `@flashylabs/rails`
+**Runs:** needs `@flashyos/ledger`, `@flashylabs/rails`
 
 **Read:** [`examples/10-performance/README.md`](examples/10-performance/)
 
@@ -446,7 +446,7 @@ public npm registry today** (measured 2026-09-28 against the sibling checkouts):
 
 | Package | Version in its repository | Where it publishes |
 |---|---|---|
-| `@flashylabs/ledger` | 1.0.0 | GitHub Packages (`npm.pkg.github.com`), access **restricted** |
+| `@flashyos/ledger` | 1.0.0 | GitHub Packages (`npm.pkg.github.com`), access **restricted** |
 | `@flashylabs/rails` | 1.0.0 | not yet published; incubated in `flashy-labs` |
 | `@magician-network/core` | 0.1.0 | published on npm (2026-09-06) |
 | `@flashyid/sdk` | 0.1.1 | published on npm (2026-09-01); 0.2.0 fails closed when its adapter is unavailable and is unpublished until the publish decision |

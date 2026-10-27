@@ -3,7 +3,7 @@
 # Two jobs, because this repository is in two states at once. Examples 11-14
 # are dependency-free and run for a stranger with nothing installed; examples
 # 01-10 import four estate packages of which none is on the public npm registry
-# today (`@flashylabs/ledger` and `@flashylabs/rails` publish to GitHub
+# today (`@flashyos/ledger` and `@flashylabs/rails` publish to GitHub
 # Packages, restricted; `@magician-network/core` and `@flashyid/sdk` are
 # unpublished 0.1.x). So `npm install` cannot succeed on a clean runner, and a
 # single job that installed first would be red on every push for a reason no

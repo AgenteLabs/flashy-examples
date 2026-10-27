@@ -9,8 +9,8 @@ them, each climbing a state ladder **by transition, never by assertion**.
 performed  →  witnessed  →  consecrated        (or  void)
 ```
 
-> Canonical spec: [`Rites-Network/SPEC.md`](https://github.com/FlashyLabs/Rites-Network/blob/main/SPEC.md).
-> Guide: [rites-witnessed-observances.md](https://github.com/flashylabs/flashy-docs/blob/main/docs/guides/rites-witnessed-observances.md).
+> Canonical spec: [`Rites-Network/SPEC.md`](https://github.com/AgenteLabs/Rites-Network/blob/main/SPEC.md).
+> Guide: [rites-witnessed-observances.md](https://github.com/AgenteLabs/flashy-docs/blob/main/docs/guides/rites-witnessed-observances.md).
 
 ## The four refusals
 
@@ -41,7 +41,7 @@ Every transition returns a **new** fragment and re-validates the whole thing.
     { "id": "obs-1", "liturgy": "daily-office", "performer": "agent/ritualos-ci",
       "for": "org/ritualos", "at": "2026-09-26T04:00:00Z",
       "recorded": "2026-09-26T04:00:05Z",
-      "evidence": "https://github.com/FlashyLabs/ritualos/actions/runs/9001",
+      "evidence": "https://github.com/AgenteLabs/ritualos/actions/runs/9001",
       "state": "witnessed",
       "witness": { "by": "org/gda-capital",
                    "basis": "https://gda.group/.well-known/dir.json",
@@ -99,6 +99,6 @@ summary that stripped the evidence URLs would be that rule run backwards.
 
 ## Next steps
 
-1. Read the [rites guide](https://github.com/flashylabs/flashy-docs/blob/main/docs/guides/rites-witnessed-observances.md) for the full doctrine
+1. Read the [rites guide](https://github.com/AgenteLabs/flashy-docs/blob/main/docs/guides/rites-witnessed-observances.md) for the full doctrine
 2. Note how reward is kept out (`reward/1`) and why
 3. See `WELL_KNOWN` — a subject serves its fragment whole at `/.well-known/ritual.json`

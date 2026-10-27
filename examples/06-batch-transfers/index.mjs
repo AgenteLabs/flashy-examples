@@ -19,7 +19,7 @@
  * running-state pattern for appendAll, and where atomicity really lives.
  */
 
-import { InMemoryLedgerStore, postTransfer } from '@flashylabs/ledger';
+import { InMemoryLedgerStore, postTransfer } from '@flashyos/ledger';
 import { RailsService, approve, toMinor, toGold, flashyGold, FLASHY_TENANT } from '@flashylabs/rails';
 
 const ALICE = 'hunter_a1';

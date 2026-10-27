@@ -7,7 +7,7 @@ import {
   sealOutcome, verifyIntroduction,
 } from '@magician-network/core';
 import { RailsService, approve, toMinor } from '@flashylabs/rails';
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 
 const ALICE = 'person/alice';
 const BOB = 'person/bob';

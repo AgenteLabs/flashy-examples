@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { InMemoryLedgerStore, verifyChain } from '@flashylabs/ledger';
+import { InMemoryLedgerStore, verifyChain } from '@flashyos/ledger';
 import { RailsService, approve, toMinor } from '@flashylabs/rails';
 
 const HOLDERS = Array.from({ length: 100 }, (_, i) => `hunter_${String(i).padStart(3, '0')}`);

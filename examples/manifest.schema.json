@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/flashylabs/flashy-examples/blob/main/examples/manifest.schema.json",
+  "$id": "https://github.com/AgenteLabs/flashy-examples/blob/main/examples/manifest.schema.json",
   "title": "flashy-examples manifest",
   "description": "Machine-readable index of the examples in this repository.",
   "type": "object",

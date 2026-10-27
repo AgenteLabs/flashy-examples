@@ -29,7 +29,7 @@ const OBS = {
   for: 'org/ritualos',
   at: '2026-09-26T04:00:00Z',
   recorded: '2026-09-26T04:00:05Z',
-  evidence: 'https://github.com/FlashyLabs/ritualos/actions/runs/9001'
+  evidence: 'https://github.com/AgenteLabs/ritualos/actions/runs/9001'
 };
 
 const WITNESS = { by: 'org/gda-capital', basis: 'https://gda.group/.well-known/dir.json', at: '2026-09-26T05:00:00Z' };

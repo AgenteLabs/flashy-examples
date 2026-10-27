@@ -18,7 +18,7 @@ const CHARTER = {
   description: 'The present tense of the record.',
   accountableTo: 'michael@gda.capital',
   escalation: 'spec',
-  repositories: [{ name: 'rites-network', url: 'github.com/FlashyLabs/Rites-Network', default: true }],
+  repositories: [{ name: 'rites-network', url: 'github.com/AgenteLabs/Rites-Network', default: true }],
   roles: [
     { name: 'spec', family: 'engineering', purpose: 'Publishes and maintains the ritual/1 standard.', measure: 'Corpus cases passed', capabilities: ['publish', 'validate'], humanApprovalAtOrAbove: 'MEDIUM', 'x-capability': ['content-exchange'] },
     { name: 'witness', family: 'risk', purpose: 'Attends and records an observance on its rhythm.', measure: 'Observances with a witness', capabilities: ['observe', 'witness'], humanApprovalAtOrAbove: 'LOW' },

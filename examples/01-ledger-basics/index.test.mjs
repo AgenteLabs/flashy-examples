@@ -4,7 +4,7 @@ import {
   InMemoryLedgerStore, FLASHY_GOLD, WHEAT, materialize,
   post, postTransfer, fromDecimal, toDecimal, minor,
   verifyChain, balanceOf,
-} from '@flashylabs/ledger';
+} from '@flashyos/ledger';
 
 const TENANT = 'test-01';
 const gold = materialize(FLASHY_GOLD, { id: 'asset_fg', tenantId: TENANT });

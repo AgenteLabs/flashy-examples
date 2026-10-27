@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 import {
   RailsService, approve, issueGrant, attenuate, revoke,
   toMinor, toGold, FLASHY_GOLD_ID,

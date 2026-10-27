@@ -6,7 +6,7 @@ Organization** rather than a product with agents bolted on.
 
 > Canon: [flashyos.com/aao](https://flashyos.com/aao),
 > [flashyos.com/standard](https://flashyos.com/standard).
-> Guide: [aao-governance-conformance.md](https://github.com/flashylabs/flashy-docs/blob/main/docs/guides/aao-governance-conformance.md).
+> Guide: [aao-governance-conformance.md](https://github.com/AgenteLabs/flashy-docs/blob/main/docs/guides/aao-governance-conformance.md).
 
 ## The manifest
 

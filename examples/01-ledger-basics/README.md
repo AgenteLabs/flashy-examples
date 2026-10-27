@@ -1,6 +1,6 @@
 # Example 1: Ledger Basics
 
-Append-only, multi-asset settlement with `@flashylabs/ledger`.
+Append-only, multi-asset settlement with `@flashyos/ledger`.
 
 ## What is the ledger?
 
@@ -19,7 +19,7 @@ pure domain and storage behind one interface. It enforces:
 There is no `Ledger` class and no `recordTransaction()`. Three pieces:
 
 ```javascript
-import { InMemoryLedgerStore, FLASHY_GOLD, materialize, post, fromDecimal } from '@flashylabs/ledger';
+import { InMemoryLedgerStore, FLASHY_GOLD, materialize, post, fromDecimal } from '@flashyos/ledger';
 
 // 1. An asset is a registry definition, materialized for a tenant
 const gold = materialize(FLASHY_GOLD, { id: 'asset_fg', tenantId: 'example-01' });

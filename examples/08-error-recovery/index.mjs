@@ -12,7 +12,7 @@
  * makes the retry settle once.
  */
 
-import { InMemoryLedgerStore } from '@flashylabs/ledger';
+import { InMemoryLedgerStore } from '@flashyos/ledger';
 import { RailsService, approve, issueGrant, attenuate, revoke, toMinor, FLASHY_GOLD_ID } from '@flashylabs/rails';
 import {
   parseGraph, findPathsTo, openRequest, consentHop, declineHop, toRequesterView, requestState,

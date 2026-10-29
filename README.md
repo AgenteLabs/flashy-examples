@@ -571,6 +571,6 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full checklist.
 
 ## 📄 License
 
-Apache-2.0. Copyright Flashy Labs.
+Apache-2.0. Copyright Agente Labs.
 
 Built with 💛 for the consent-gated, trust-routed web.
